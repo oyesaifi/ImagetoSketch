@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Online Image to Sketch | Convert Image to Sketch Online Free</title>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="/media/images/logo.gif" type="image/x-icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="No limits in file size, no ad watermarks - just a free, beautiful online tool to convert any image to a sketch.">
+		<meta name="keywords" content="a pencil sketch, ai drawing app, ai sketch, ai to sketch, app convert photo to drawing, app for converting photo into sketch, app for sketching photos, app to convert photo into sketch, app to convert photo to pencil sketch, app to convert photo to sketch, app to convert picture into sketch, app to convert picture to sketch, app to make sketch from photo, app to outline photos, app to turn photo into drawing, app to turn photo into illustration, app to turn photo into line drawing, app to turn photo into sketch, app to turn picture into drawing, app to turn picture into sketch, app which convert photo into sketch, apps to convert photo into sketch, apps to outline pictures, convert a photo into sketch, convert a photo to a drawing" />
+		<meta property="og:title" content="Image To Sketch - Convert your Images to Sketch online for free!" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="home.html" />
+		<meta property="og:image" content="/media/images/logo.gif" />
+		<meta property="og:site_name" content="Image To Sketch - Convert your Images to Sketch online for free!" />
+		<meta property="og:description" content="No limits in file size, no ad watermarks - just a free, beautiful online tool to convert any image to a sketch." />
+		<link rel="stylesheet" href="/media/assets/css/main.css" />
+		<script>
+			function checkEmpty(){
+				var img = document.getElementById('ImageUpload').value;
+				if(img == ''){
+					alert('Please upload an image');
+					return false;
+				}
+				return true;
+			}
+		</script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Online Image to Sketch </strong>| Convert Image to Sketch Online Free</a>
+									<ul class="icons">
+										<li><a href="https://www.facebook.com/asdigitalcomrade" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.instagram.com/asdigitalcomrade/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+									 
+									 <table width="500" align="center">
+		<tr><td align="center">	<h2 align="center">Online Image to Sketch | Convert Image to Sketch Online Free</h2></td></tr>
+		<tr><td align="center"><h4>Convert Any image to Sketch</h4></td></th>
+		<tr>
+			<td align="center">
+				<form onsubmit="return checkEmpty()" action="upload" enctype="multipart/form-data" method="post"/>
+				{% csrf_token %}
+					<input type="file" name="ImageUpload" id="ImageUpload" accept="image/*"/><br><br>
+					<input type="submit" value="Convert"/>
+				</form>
+			</td>
+		</tr>
+	</table>					
+
+
+	<div class="example" style="width:300px;align-items: center;justify-content: center;">
+
+		<style>
+			body {
+			  font-family: Arial;
+			  margin: 0;
+			}
+			
+			* {
+			  box-sizing: border-box;
+			}
+			
+			img {
+			  vertical-align: middle;
+			}
+			
+			/* Position the image container (needed to position the left and right arrows) */
+			.container {
+			  position: relative;
+			}
+			
+			/* Hide the images by default */
+			.mySlides {
+			  display: none;
+			}
+			
+			/* Add a pointer when hovering over the thumbnail images */
+			.cursor {
+			  cursor: pointer;
+			}
+			
+			/* Next & previous buttons */
+			.prev,
+			.next {
+			  cursor: pointer;
+			  position: absolute;
+			  top: 40%;
+			  width: auto;
+			  padding: 16px;
+			  margin-top: -50px;
+			  color: white;
+			  font-weight: bold;
+			  font-size: 20px;
+			  border-radius: 0 3px 3px 0;
+			  user-select: none;
+			  -webkit-user-select: none;
+			}
+			
+			/* Position the "next button" to the right */
+			.next {
+			  right: 0;
+			  border-radius: 3px 0 0 3px;
+			}
+			
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover,
+			.next:hover {
+			  background-color: rgba(0, 0, 0, 0.8);
+			}
+			
+			/* Number text (1/3 etc) */
+			.numbertext {
+			  color: #f2f2f2;
+			  font-size: 12px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  top: 0;
+			}
+			
+			/* Container for image text */
+			.caption-container {
+			  text-align: center;
+			  background-color: #222;
+			  padding: 2px 16px;
+			  color: white;
+			}
+			
+			.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+			
+			/* Six columns side by side */
+			.column {
+			  float: left;
+			  width: 16.66%;
+			}
+			
+			/* Add a transparency effect for thumnbail images */
+			.demo {
+			  opacity: 0.6;
+			}
+			
+			.active,
+			.demo:hover {
+			  opacity: 1;
+			}
+		</style>
+			
+			<h2 style="text-align:center">Example</h2>
+			
+			<div class="container">
+			  <div class="mySlides">
+				<div class="numbertext">1 / 4 </div>
+				<img src="/media/images/1.png" style="width:100%;max-height:500px;">
+			  </div>
+			
+			  <div class="mySlides">
+				<div class="numbertext">2 / 4</div>
+				<img src="/media/images/2.png" style="width:100%;max-height:500px;">
+			  </div>
+			
+			  <div class="mySlides">
+				<div class="numbertext">3 / 4</div>
+				<img src="/media/images/3.png" style="width:100%;max-height:500px;">
+			  </div>
+				
+			  <div class="mySlides">
+				<div class="numbertext">4 / 4</div>
+				<img src="/media/images/4.png" style="width:100%;max-height:500px;">
+			  </div>
+				
+			  <a class="prev" onclick="plusSlides(-1)">❮</a>
+			  <a class="next" onclick="plusSlides(1)">❯</a>
+			
+			  <div class="caption-container">
+				<p id="caption"></p>
+			  </div>
+			
+			  <div class="row">
+				<div class="column">
+				  <img class="demo cursor" src="/media/images/1.png" style="width:100%" onclick="currentSlide(1)">
+				</div>
+				<div class="column">
+				  <img class="demo cursor" src="/media/images/2.png" style="width:100%" onclick="currentSlide(2)">
+				</div>
+				<div class="column">
+				  <img class="demo cursor" src="/media/images/3.png" style="width:100%" onclick="currentSlide(3)">
+				</div>
+				<div class="column">
+				  <img class="demo cursor" src="/media/images/4.png" style="width:100%" onclick="currentSlide(4)">
+				</div>
+			  </div>
+			</div>
+			
+			<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+			
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+			
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+			
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("demo");
+			  var captionText = document.getElementById("caption");
+			  if (n > slides.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				  slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				  dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			  captionText.innerHTML = dots[slideIndex-1].alt;
+			}
+			</script>
+
+	</div>
+		
+	
+									</div>
+
+								
+
+								</section>
+
+						
+
+						</div>
+					</div>
+					
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+								<h1>AsDigital<br>Comrade Tools</h1>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Tools</h2>
+									</header>
+									<ul>
+									<li><a href="/">Home</a></li>
+									<li><a href="/">Image to Sketch</a></li>
+									<li><a href="#">Premium icon Downloader</a></li>
+									</ul>
+								</nav>
+
+						
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">©<!-- --> <!-- -->2021<!-- --> <!-- -->Image2Sketch ADC<!-- --> — <!-- -->Made with &hearts; for the people of the internet.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/media/assets/js/jquery.min.js"></script>
+			<script src="/media/assets/js/browser.min.js"></script>
+			<script src="/media/assets/js/breakpoints.min.js"></script>
+			<script src="/media/assets/js/util.js"></script>
+			<script src="/media/assets/js/main.js"></script>
+
+	</body>
+</html>
