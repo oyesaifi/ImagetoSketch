@@ -16,17 +16,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/oyesaifi/ImagetoSketch">
+    <img src="media/images/logo_saifi.png" alt="Logo" height="80">
   </a>
 
   <h3 align="center">Image To Sketch</h3>
 
   <p align="center">
-    This is a Django based website that converts Image into Sketch.
+    Image to Sketch convertor
     <br />
     <br />
-    <a href="https://github.com/oyesaifi/ImagetoSketch">View Demo</a>
+    <a href="https://imagetosketch.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/oyesaifi/ImagetoSketch/issues">Report Bug</a>
     ·
