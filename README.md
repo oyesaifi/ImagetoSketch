@@ -114,13 +114,13 @@ Project Link: [https://github.com/oyesaifi/ImagetoSketch](https://github.com/oye
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/oyesaifi/ImagetoSketch.svg?style=for-the-badge
 [contributors-url]: https://github.com/oyesaifi/ImagetoSketch/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/oyesaifi/ImagetoSketch.svg?style=for-the-badge
 [forks-url]: https://github.com/oyesaifi/ImagetoSketch/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/oyesaifi/ImagetoSketch.svg?style=for-the-badge
 [stars-url]: https://github.com/oyesaifi/ImagetoSketch/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/oyesaifi/ImagetoSketch.svg?style=for-the-badge
 [issues-url]: https://github.com/oyesaifi/ImagetoSketch/issues
 [product-screenshot]: images/screenshot.png
 [Python3.js]: https://img.shields.io/badge/python3-20232A?style=for-the-badge&logo=python&logoColor=61DAFB
