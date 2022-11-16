@@ -106,8 +106,8 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- CONTACT -->
 ## Contact
 
-Aman Saifi - [@your_twitter](https://twitter.com/your_username) - oyeamansaifi@gmail.com
-
+Aman Saifi - [@oye.saifi](https://instagram.com/oye.saifi) - oyeamansaifi@gmail.com <br>
+AsDigitalComrade - [@asdigitalcomrade](https://instagram.com/asdigitalcomrade) - asdigitalcomrade@gmail.com <br>
 Project Link: [https://github.com/oyesaifi/ImagetoSketch](https://github.com/oyesaifi/ImagetoSketch)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -122,7 +122,7 @@ Project Link: [https://github.com/oyesaifi/ImagetoSketch](https://github.com/oye
 [stars-url]: https://github.com/oyesaifi/ImagetoSketch/stargazers
 [issues-shield]: https://img.shields.io/github/issues/oyesaifi/ImagetoSketch.svg?style=for-the-badge
 [issues-url]: https://github.com/oyesaifi/ImagetoSketch/issues
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: media/images/ss.PNG
 [Python3.js]: https://img.shields.io/badge/python3-20232A?style=for-the-badge&logo=python&logoColor=61DAFB
 [Django.js]: https://img.shields.io/badge/django-35495E?style=for-the-badge&logo=django&logoColor=4FC08D
 [Opencv.js]: https://img.shields.io/badge/Opencv-35495E?style=for-the-badge&logo=opencv&logoColor=4FC08D
