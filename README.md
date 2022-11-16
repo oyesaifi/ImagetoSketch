@@ -1,12 +1,128 @@
-# Image To Sketch converter
-This Django based website converts an Image into Sketch using Opencv-Python.
-<br><br>Required: Python3, Pip3. To setup this project!
-<br><br>
-SETUP:<br>
-  step1: open Terminal and install git: apt install git (if not installed already). <br>
-  step2: clone this repositorie: git clone https://github.com/oyesaifi/ImagetoSketch<br>
-  step3: change DIR to ImagetoSketch: cd ImagetoSketch <br>
-  step4: install requirements: pip3 install -r requirements.txt <br>
-  step5: migrate database: python3 manage.py migrate <br>
-  step6: start server: python3 manage.py runserver IP:PORT (Default: localhost:8000) <br>
-Visit IP:PORT and enjoy! <br>
+<a name="readme-top"></a>
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Image To Sketch</h3>
+
+  <p align="center">
+    This is a Django based website that converts Image into Sketch.
+    <br />
+    <br />
+    <a href="https://github.com/oyesaifi/ImagetoSketch">View Demo</a>
+    ·
+    <a href="https://github.com/oyesaifi/ImagetoSketch/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/oyesaifi/ImagetoSketch/issues">Request Feature</a>
+  </p>
+</div>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+This is simple Image to Sketch convertor made using Django, Python3 & Opencv.
+
+Why use it?:
+* Converts image into Sketch
+* Super fast
+* User-friendly template :smile:
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+* ![Opencv][Opencv.js]
+* ![Django][Django.js]
+* ![Python3][Python3.js]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* git
+  ```sh
+  apt install git
+  ```
+
+### Installation
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/oyesaifi/ImagetoSketch
+   ```
+2. Install PIP packages
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Migrate database
+   ```sh
+   python3 manage.py migrate
+   ```
+4. Run server on localhost
+   ```sh
+   python3 manage.py runserver
+   ```
+5. Run server on custom IP
+   ```sh
+   python3 manage.py runserver IP:PORT
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Aman Saifi - [@your_twitter](https://twitter.com/your_username) - oyeamansaifi@gmail.com
+
+Project Link: [https://github.com/oyesaifi/ImagetoSketch](https://github.com/oyesaifi/ImagetoSketch)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/oyesaifi/ImagetoSketch/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/oyesaifi/ImagetoSketch/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/oyesaifi/ImagetoSketch/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/oyesaifi/ImagetoSketch/issues
+[product-screenshot]: images/screenshot.png
+[Python3.js]: https://img.shields.io/badge/python3-20232A?style=for-the-badge&logo=python&logoColor=61DAFB
+[Django.js]: https://img.shields.io/badge/django-35495E?style=for-the-badge&logo=django&logoColor=4FC08D
+[Opencv.js]: https://img.shields.io/badge/Opencv-35495E?style=for-the-badge&logo=opencv&logoColor=4FC08D
