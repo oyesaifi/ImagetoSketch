@@ -1,2 +1,2 @@
 # ImagetoSketch
-Django based  Image to Sketch converting website.
+This Django based website converts an Image into Sketch using OpenCv-Python.
