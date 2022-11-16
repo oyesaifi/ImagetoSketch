@@ -1,0 +1,7 @@
+django
+opencv-python
+numpy
+shutil
+string
+random
+os
