@@ -40,7 +40,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This is simple Image to Sketch convertor made using Django, Python3 & Opencv.
+This is a simple Image to Sketch convertor made using Django, Python3 & Opencv.
 
 Why use it?:
 * Converts image into Sketch
@@ -53,7 +53,6 @@ Why use it?:
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * ![Opencv][Opencv.js]
 * ![Django][Django.js]
@@ -68,7 +67,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Linux
 
 This is an example of how to list things you need to use the software and how to install them.
 * git
@@ -78,7 +77,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can install and set up this app on Linux os._
 
 1. Clone the repo
    ```sh
